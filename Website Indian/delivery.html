@@ -1,0 +1,306 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bajrang Bit33's</title>
+        <link rel="website icon" type="png" href="images/logo.png">
+
+        <!-- Facebook and Twitter integration -->
+        <meta property="og:title" content=""/>
+        <meta property="og:image" content=""/>
+        <meta property="og:url" content=""/>
+        <meta property="og:site_name" content=""/>
+        <meta property="og:description" content=""/>
+        <meta name="twitter:title" content="" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:url" content="" />
+        <meta name="twitter:card" content="" />
+
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- Icomoon Icon Fonts-->
+        <link rel="stylesheet" href="css/icomoon.css">
+        <!-- Bootstrap  -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!-- Flexslider  -->
+        <link rel="stylesheet" href="css/flexslider.css">
+
+        <!-- Theme style  -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Modernizr JS -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <!-- FOR IE9 below -->
+        <!--[if lt IE 9]>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>  
+
+        <div class="fh5co-loader"></div>
+
+        <div id="page">
+        <nav class="fh5co-nav" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center logo-wrap">
+                        <div id="fh5co-logo"><a href="index.html">Bajrang Bit33<span>'s</span></a></div>
+                    </div>
+                    <div class="col-xs-12 text-center menu-1 menu-wrap">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li class="has-dropdown">
+                                <a href="gallery.html">Gallery</a>
+                                <ul class="dropdown">
+                                    <li><a href="events.html">Events</a></li>
+                                    <li><a href="drinks.html">Drinks</a></li>
+                                    <li><a href="desserts.html">Desserts</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="reservation.html">Reservation</a></li>
+                            <li class="active"><a href="delivery.html">Delivery</a></li>
+                            <li class="has-dropdown">
+                                <a href="about.html">About</a>
+                                <ul class="dropdown">
+                                    <li><a href="blog.html">Our Blog</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/DELIVERY.BK.png);" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="display-t js-fullheight">
+                            <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+                                <h1>Place your order</h1>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <form id="orderForm" class="order-form">
+            <div class="form-group">
+              <label for="curry">Select Curry:</label>
+              <select id="curry" name="curry" class="form-control">
+                <option value="0">-- Select Curry --</option>
+                <option value="10">Butter Chicken - $10</option>
+                <option value="12">Chicken Tikka Masala - $12</option>
+                <option value="9">Vegetable Korma - $9</option>
+                <option value="11">Lamb Rogan Josh - $11</option>
+                <option value="8">Prawn Curry - $8</option>
+                <option value="7">Paneer Butter Masala - $10</option>
+              </select>
+              <div class="form-group">
+                    <label for="quantityCurry">Select Curry Quantity:</label>
+                 <input type="number" id="quantityCurry" name="quantityCurry" class="form-control" min="0" value="0">
+              </div>
+              
+            </div>
+            
+            
+            
+            <div class="form-group">
+              <label for="biryani">Select Biryani:</label>
+              <select id="biryani" name="biryani" class="form-control">
+                <option value="0">-- Select Biryani --</option>
+                <option value="8">Chicken Biryani - $8</option>
+                <option value="7">Vegetable Biryani - $7</option>
+                <option value="9">Lamb Biryani - $9</option>
+                <option value="10">Prawn Biryani - $10</option>
+              </select>
+              <div class="form-group">
+                    <label for="quantitybiriyani">Select Biriyani Quantity:</label>
+                    <input type="number" id="quantitybiriyani" name="quantitybiriyani" class="form-control" min="0" value="0">
+                </div>
+                
+            </div>
+
+            <div class="form-group">
+                <label for="breakfast">Select Breakfast Deal:</label>
+                <select id="breakfast" name="breakfast" class="form-control">
+                  <option value="0">-- Select Breakfast Deal --</option>
+                  <option value="5">Idli Sambar - $5</option>
+                  <option value="6">Dosa Combo - $6</option>
+                  <option value="4">Upma with Chutney - $4</option>
+                  <option value="7">Poha - $7</option>
+                </select>
+                <div class="form-group">
+                    <label for="quantitybreakfast">Select Breakfast Deal Quantity:</label>
+                    <input type="number" id="quantitybreakfast" name="quantitybreakfast" class="form-control" min="0" value="0">
+                </div>
+                
+            </div>
+
+            <div class="form-group">
+                <label for="lunch">Select Lunch Deal:</label>
+                <select id="lunch" name="lunch" class="form-control">
+                  <option value="0">-- Select Lunch Deal --</option>
+                  <option value="12">Thali - $12</option>
+                  <option value="10">Vegetarian Lunch Buffet - $10</option>
+                  <option value="11">Non-Vegetarian Lunch Buffet - $11</option>
+                  <option value="9">Biryani Lunch Box - $9</option>
+                </select>
+                <div class="form-group">
+                    <label for="quantitylunch">Select Lunch Deal Quantity:</label>
+                    <input type="number" id="quantitylunch" name="quantitylunch" class="form-control" min="0" value="0">
+                </div>
+                
+            </div>
+
+            <div class="form-group">
+                <label for="dinner">Select Dinner Deal:</label>
+                <select id="dinner" name="dinner" class="form-control">
+                  <option value="0">-- Select Dinner Deal --</option>
+                  <option value="18">Chef's Special Dinner - $18</option>
+                  <option value="15">Family Dinner Platter - $15</option>
+                  <option value="16">Vegetarian Dinner Buffet - $16</option>
+                  <option value="17">Non-Vegetarian Dinner Buffet - $17</option>
+                </select>
+                <div class="form-group">
+                    <label for="quantitydinner">Select Dinner Deal Quantity:</label>
+                    <input type="number" id="quantitydinner" name="quantitydinner" class="form-control" min="0" value="0">
+                </div>
+                
+            </div>
+              
+              
+           <!-- Fixed Delivery Charge of $5.99 -->
+            <input type="hidden" id="delivery" name="delivery" value="5.99">
+            
+            <div class="form-group">
+              <label for="tip">Tip (%):</label>
+              <input type="number" id="tip" name="tip" class="form-control" min="0" step="1" value="10">
+            </div>
+            
+            <div class="form-group">
+              <button type="button" onclick="calculateTotal()" class="btn btn-primary">Calculate Total</button>
+            </div>
+        </form>
+            
+          <div id="orderSummary" class="order-summary">
+                <h3>Order Summary</h3>
+                <p>Total Items: <span id="totalItems">0</span></p>
+                <p>Subtotal: $<span id="subtotal">0.00</span></p>
+                <p>Delivery Charge: $<span id="deliveryCharge">5.99</span></p>
+                <p>Tip (10%): $<span id="tipAmount">0.00</span></p>
+                <hr>
+                <h3>Total Amount: $<span id="totalAmount">0.00</span></h3>
+          </div>
+        </div>
+
+        <!--Currency converstion-->
+        <div class="form-group">
+            <label for="currency">Select Currency:</label>
+            <select id="currency" name="currency" class="form-control">
+                <option value="USD" selected>USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+                
+            </select>
+        </div>
+        
+        <!-- Calculate Total button -->
+           <button type="button" onclick="calculateTotal()" class="btn btn-primary">Calculate Total</button>
+
+
+            <!-- Proceed to Checkout button -->
+            <button id="checkoutButton" type="button" onclick="proceedToCheckout()" class="btn btn-success" style="display: none;">Proceed to Checkout</button>
+
+        <footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
+            <div class="container">
+                <div class="row row-pb-md">
+                    <div class="col-md-4 fh5co-widget">
+                        <h4>Bajrang Bit33"s</h4>
+                        <p>"Diet? More like 'die-t'! Live a little, eat at SpiceSutra!"</p>
+                        <p>"Taste the excitement at Bajrang Bitees - where every dish is a thrilling journey for your taste buds!"</p>
+                        <div>
+                            <h4> Explore Our Location</h4>
+                                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2424.9107120939393!2d-0.23781742342567178!3d52.57122593243586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877f23d79c807d3%3A0xadf5a3c02aef1b1b!2sARU%20Peterborough!5e0!3m2!1sen!2suk!4v1712227392666!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-md-push-1 fh5co-widget">
+                        <h4>Links</h4>
+                        <ul class="fh5co-footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="reservation.html">Reservation</a></li>
+                        </ul>
+                    </div>
+    
+                    
+    
+                    <div class="col-md-4 col-md-push-1 fh5co-widget">
+                        <h4>Contact Information</h4>
+                        <ul class="fh5co-footer-links">
+                            <li>University House, Bishop's Rd,<br>Peterborough PE1 5BW</li>
+                            <li><a href="tel://1234567920">+ 1235 2355 98</a></li>
+                            <li><a href="mailto:info@yoursite.com">info@bajarangbit33s.com</a></li>
+                        </ul>
+                    </div>
+    
+                </div>
+    
+                <div class="row copyright">
+                    <div class="col-md-12 text-center">
+                        <p>
+                            <small class="block">&copy; Bajrang Bit33's. All Rights Reserved.</small> 
+                        </p>
+                        <p>
+                            <ul class="fh5co-social-icons">
+                                <li><a href="https://twitter.com/bajrangbit33s"><i class="icon-twitter2"></i></a></li>
+                                <li><a href="https://www.facebook.com/bajrangbit33s"><i class="icon-facebook2"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/bajrangbit33s"><i class="icon-linkedin2"></i></a></li>
+                                <li><a href="https://dribbble.com/bajrangbit33s"><i class="icon-dribbble2"></i></a></li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+        </footer>
+        </div>
+        
+
+        <div class="gototop js-top">
+            <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+        </div>
+
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/jquery.stellar.min.js"></script>
+        <!-- Flexslider -->
+        <script src="js/jquery.flexslider-min.js"></script>
+        <!-- Main -->
+        <script src="js/main.js"></script>
+
+        <!-- delivery calculation script -->
+        <script src="js/delivery.js"></script>
+
+
+    </body>
+</html>
